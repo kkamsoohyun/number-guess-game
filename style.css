@@ -1,0 +1,45 @@
+
+
+@font-face {
+    font-family: 'EF_jejudoldam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+   font-family: 'EF_jejudoldam';
+    background-image: url("https://m.segye.com/content/image/2020/01/03/20200103511019.jpg");
+    text-align: center;
+
+}
+
+.container{
+    background-color: rgba(255,255,255,0.8);
+    border:5px solid white;
+    border-radius: 20px;
+    padding:40px;
+    margin-top : 50px;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #2b7610;
+    --bs-btn-hover-border-color: #2b7610;
+}
+
+#reset{
+    margin-top: 40px;
+    background-color: red;
+    border-color: red;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+#reset:hover{
+    background-color: #cd2929;
+    border-color: #cd2929;  
+}
+

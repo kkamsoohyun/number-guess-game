@@ -5,17 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>number-guess-game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+    <div class="container">
+        <h3>광란의</h3>
+        <h1>숫자 맞추기 게임</h1>
+        <div id="remain">기회 : 5번</div>
+        <div>
+            <img src="https://media3.giphy.com/media/Ie2Hs3A0uJRtK/giphy.gif?cid=ecf05e47h4zc9c0bz7t3qsbr8ibfzit8w8sjbcaq0daslqsb&ep=v1_gifs_search&rid=giphy.gif&ct=g" style="width: 300px;" id="show-img">
+        </div>
+        <h3 id="show-text">과연 맞출 수 있을까?</h3>
+        <input type="number" id="guess-number">
+        <button id="go-button" class="btn btn-primary btn-lg">Go !</button><br>
+       
+    </div>
+    <button id="reset" class="btn btn-primary btn-lg">리셋</button>
 
-    <h1>숫자 맞추기 게임!</h1>
-    <div id="result-area">맞춰봐</div>
-    <div id="chances-area">남은 기회: 5번</div>
-    <input type="number" id="input-value">
-    <button type="button" id="Go-button">go!</button><br>
-    <button id="reset-button">리셋!</button>
     
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="main.js"></script>
+  
+
 </body>
 </html>
