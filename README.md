@@ -5,5 +5,6 @@ https://guess-the-number-sh.netlify.app/
 <hr>
 <ul>
   <li>html / css / javascript 를 사용한 간단한 웹 게임</li>
-  <li><코딩알려주는누나> 수강생 작품</li>
+  <li>총 다섯 번의 기회!</li>
+  <li>1~100 사이의 숫자만 입력이 가능합니다.</li>
 </ul>
